@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <title>Bootstrap 5 Layout</title>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- Content starts here -->
+  <nav class="navbar navbar-expand-lg bg-black" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand">Pirate Cove</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="article.html">Article</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="photos.html">Photos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="text-white">
+    <header class="p-5">
+      <h1 class="display-4" >Ship's Log</h1>
+      <p class="lead">A diary of all sea adventures. </p>
+    </header>
+  </div>
+  <!--How to add padding and caption style in scss??-->
+  <section class="container">
+    <div class="row">
+      <div class="col-md-6 col-lg-4">
+        <figure class="figure">
+          <img src="../img/pirate.jpg" class="figure-img img-fluid" alt="Pirate Headshot">
+          <figcaption class="figure-caption">By Capt. Sparrow</figcaption>
+          <figcaption class="figure-caption-two">Early Sea Bird Magazine</figcaption>
+        </figure>
+      </div>
+      <div class="col-md-6 col-lg-8">
+          <h2>A Storm is Brewing</h2>
+          <p class="lead">Captin Jack Sparrow was one of the very few who survived the Kraken trio.</p>
+          <p>Capt. Sparrow claims that they were "One tough sea cookie" and that he was fortunate that his crew made it through. His ship The Black Pearl has some pretty bad damage but is currently being prepared. Sparrow hopes to be back on the sea by next week.</p>
+          <p>"There is nothing more I like than a ye little challenge," Sparrow says, "Arg and challenge accepted."</p>
+      </div>
+    </div>
+  </section>
+    <footer class="my-3">
+      <p> Site by Madison Myers</p>
+    </footer>
+  </div>
+  <!-- Closing scripts here -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
